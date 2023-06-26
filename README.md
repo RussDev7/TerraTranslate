@@ -13,12 +13,9 @@ There are currently only four easy steps required to use this tool.
 The console will display all translated messages in simple text. TerraTranslate also saves a text log of all messages to your desktop named `TranslatedServerLog.txt`. This log contains a more advanced logging including the timestamp, data, length and hex of each message received.
 
 ## Currently Supported Languages
-- ZH <-> EN (Chinese to English)
-- EN <-> ZH (English to Chinese)
-- RU <-> EN (Russian to English)
-- EN <-> RU (English to Russian)
-- ES <-> EN (Spanish to English)
-- EN <-> ES (English to Spanish)
+- ZH <-> EN (Chinese to English / English to Chinese)
+- RU <-> EN (Russian to English / English to Russian)
+- ES <-> EN (Spanish to English / English to Spanish)
 
 For a full list of possible languages that could be implemented, please refer to the [GoogleLanguageSupport](https://cloud.google.com/translate/docs/languages).
 
