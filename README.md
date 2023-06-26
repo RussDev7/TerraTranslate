@@ -12,6 +12,16 @@ There are currently only four easy steps required to use this tool.
 
 The console will display all translated messages in simple text. TerraTranslate also saves a text log of all messages to your desktop named `TranslatedServerLog.txt`. This log contains a more advanced logging including the timestamp, data, length and hex of each message received.
 
+## Currently Supported Languages
+- ZH <-> EN (Chinese to English)
+- EN <-> ZH (English to Chinese)
+- RU <-> EN (Russian to English)
+- EN <-> RU (English to Russian)
+- ES <-> EN (Spanish to English)
+- EN <-> ES (English to Spanish)
+
+For a full list of possible languages that could be implemented, please refer to the [GoogleLanguageSupport](https://cloud.google.com/translate/docs/languages).
+
 ## How It Works
 This project works by using a packet sniffer to read the network using the filter `tcp dst port GAMESPORT`. This gives the raw binary packet recieved from the Terraria server in the form of hex. We can convert this to usable UTF8 text.
 
