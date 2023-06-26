@@ -3,6 +3,15 @@ This project is aimed at translating public servers and to allow you to join in 
 
 ![T-Translate](https://github.com/RussDev7/TerraTranslate/assets/33048298/5d4b07cb-05a2-4244-97b6-53d69aade0cf)
 
+## How To Use It?
+There are currently only four easy steps required to use this tool.
+1) Join a server with Terraria.
+2) Launch TerraTranslate.
+3) Select your network device.
+4) Choose languages to translate.
+
+The console will display all translated messages in simple text. TerraTranslate also saves a text log of all messages to your desktop named `TranslatedServerLog.txt`. This log contains a more advanced logging including the timestamp, data, length and hex of each message received.
+
 ## How It Works
 This project works by using a packet sniffer to read the network using the filter `tcp dst port GAMESPORT`. This gives the raw binary packet recieved from the Terraria server in the form of hex. We can convert this to usable UTF8 text.
 
