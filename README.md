@@ -18,7 +18,6 @@ From there we can inspect this incoming packet and extract only the in-game text
 ![T-Packet2](https://github.com/RussDev7/TerraTranslate/assets/33048298/f3fb09de-46d0-4e41-9f2f-eea65859e285)
 Then we can run the code through googles translate API for translating before sending it to the console and recording it. Its also possible to alter the packet and send it in-game to it appears translated in-game. Future plans I would also like to capture in-game commands such as `/trans {msg}` or `/lang` to have the console translate to the opposing language or switch languages.
 
-Code by [Yashar Aliabbasi](https://stackoverflow.com/a/52604936/8667430)
 ```csharp
 public static String Translate(String word, string langFrom, string langTo)
 {
@@ -39,6 +38,8 @@ public static String Translate(String word, string langFrom, string langTo)
 	}
 }
 ```
+- Code by: [Yashar Aliabbasi](https://stackoverflow.com/a/52604936/8667430)
+
 ## Sharppcap
 The foundation for this project was created on a free templet within the [sharppcap](https://github.com/dotpcap/sharppcap) repository. Huge thanks to the sharppcap team and all their contributors. I take no credit for their amazing work.
 
