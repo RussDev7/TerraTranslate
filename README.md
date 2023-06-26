@@ -55,5 +55,5 @@ The foundation for this project was created on a free templet within the [sharpp
  - [ ] Send the altered packet out to be read within the game.
 
 ## Required Libraries
-- [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
+- [.NET SDK 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [WinPcap 4.1.3](https://www.winpcap.org/install/)
