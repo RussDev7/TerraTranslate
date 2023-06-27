@@ -1,16 +1,25 @@
 # Welcome To The TerraTranslate Project!
 This project is aimed at translating public servers and to allow you to join in on the communication. Have you ever joined an online server and found everyone is communicating in a different language such as Spanish, Russian, or Chinese? This is frustrating is it not? Well then TerraTranslate is the tool for you! This tool is 100% external and requires no installation into your game files or special mod loaders!
 
-![T-Translate](https://github.com/RussDev7/TerraTranslate/assets/33048298/5d4b07cb-05a2-4244-97b6-53d69aade0cf)
+![T-Translate](https://github.com/RussDev7/TerraTranslate/assets/33048298/2fc71d06-3e48-43a3-8f9c-5ef30dc800bd)
+
 
 ## How To Use It?
 There are currently only four easy steps required to use this tool.
 1) Join a server with Terraria.
 2) Launch TerraTranslate.
 3) Select your network device.
+
 4) Choose languages to translate.
 
 The console will display all translated messages in simple text. TerraTranslate also saves a text log of all messages to your desktop named `TranslatedServerLog.txt`. This log contains a more advanced logging including the timestamp, data, length and hex of each message received.
+
+## Supported In-Game Commands
+- `/lang {text}` - Translates a message to the opposing language and copies it to the clipboard.
+- `/show` - Shows the translated chat in-game.
+- `/hide` - Hides the in-game text traslation overlay.
+
+![In-Game](https://github.com/RussDev7/TerraTranslate/assets/33048298/99f1d2d8-d91c-43ba-8fec-ccf09704f806)
 
 ## Currently Supported Languages
 - ZH <-> EN (Chinese to English / English to Chinese)
@@ -66,9 +75,9 @@ The foundation for this project was created on a free templet within the [sharpp
  - [x] Create a secondary filter to read traffic and collect only chat. (Use chat headers)
  - [x] Translate incoming packets.
  - [ ] Use the console to translate text to the opposing language. (Copies to clipboard)
- - [ ] Capture and terminate incoming game packets (Ex: /trans /lang)
+ - [x] Capture incoming game packets (Ex: /trans /lang)
  - [ ] Dynamically set the translation languages from a .json.
- - [ ] Send the altered packet out to be read within the game.
+ - [x] Send the altered packet out to be dislayed within the game.
 
 ## Required Libraries
 - [.NET SDK 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
