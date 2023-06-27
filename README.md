@@ -17,7 +17,7 @@ The console will display all translated messages in simple text. TerraTranslate 
 ## Supported In-Game Commands
 - `/lang {text}` - Translates a message to the opposing language and copies it to the clipboard.
 - `/show` - Shows the translated chat in-game.
-- `/hide` - Hides the in-game text traslation overlay.
+- `/hide` - Hides the in-game text translation overlay.
 
 ![In-Game](https://github.com/RussDev7/TerraTranslate/assets/33048298/99f1d2d8-d91c-43ba-8fec-ccf09704f806)
 
